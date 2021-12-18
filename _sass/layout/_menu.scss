@@ -146,7 +146,7 @@
 	}
 
 	body.is-menu-visible {
-	    #wrapper {
+		#wrapper {
 		-webkit-backface-visibility: hidden;
 		-webkit-perspective: 1000;
 		-webkit-transform: translate3d(0,0,0);
@@ -155,6 +155,7 @@
 		perspective: 1000;
 		transform: translate3d(0,0,0);
 		transform: translateZ(0);
+		opacity: 0.2;
 		}
 
 		#menu {
