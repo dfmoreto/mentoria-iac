@@ -20,7 +20,7 @@ menu_position: 2
           <div class="box">
             <div class="row">
               <div class="3u 12u$(medium)">
-                <img src="/assets/images/{{ tecnology.image }}" />
+                <img src="{{ site.baseurl }}/assets/images/{{ tecnology.image }}" />
               </div>
               <div class="9u 12u$(medium) tecnology-name">
                 <h2>{{ tecnology.name }}</h2>
