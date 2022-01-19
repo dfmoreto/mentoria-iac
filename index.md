@@ -1,13 +1,6 @@
 ---
+layout: page
 ---
-
-<html>
-
-{% include head.html %}
-
-<body>
-  
-{% include header.html %}
 
 <!-- Banner -->
 <section id="banner" class="major">
@@ -26,14 +19,7 @@
   </div>
 </section>
   
-  <!-- Main -->
+<!-- Main -->
 <div id="main">
   {% include tiles.html %} 
 </div>
-
-{% include footer.html %}
-  
-</body>
-
-</html>
-  
